@@ -124,7 +124,7 @@ Top features by logistic regression coefficient for a few classes:
 
 The easy classes are basically explicit emotion words, which is why TF-IDF does so well on gratitude and amusement and why DistilBERT doesn't add much there. Annoyance and anger share words (stupid, fucking, fuck), which fits the confusion between them. A few features look like noise: "bro" under grief and "or"/"why" under confusion, probably from very few training examples.
 
-## Caveats
+## Limitations
 
 - Single run, single seed, no confidence intervals, so small F1 differences (like BiLSTM vs TF-IDF macro-F1, 0.428 vs 0.421) could just be noise.
 - The confusion matrix and the confident-error list are only for DistilBERT. I haven't looked at the other two models the same way.
