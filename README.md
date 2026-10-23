@@ -97,17 +97,6 @@ Test F1 for every class and model, sorted by DistilBERT performance:
 
 ![Per-class F1](figures/per_class_f1.png)
 
-## Repository Structure
-
-```
-.
-├── geoemotions_classifications.ipynb   # End-to-end experiment notebook
-├── results.csv                         # Aggregate test metrics (generated)
-├── figures/                            # Generated plots
-│   ├── class_distribution.png
-│   └── per_class_f1.png
-└── README.md
-```
 
 ## Usage
 
